@@ -1,5 +1,5 @@
 <?php
-a
+
     session_start();
     
     $token = $_GET['token'];
