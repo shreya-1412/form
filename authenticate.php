@@ -6,7 +6,7 @@
     include 'configuration.php';
     
     
-    $sql = "select * from `users` where `token` = '$token' and status = 'active'";
+    $sql = "SELECT * from `users` where `token` = '$token' and status = 'active'";
     $result1 = mysqli_query($conn, $sql);
     $num = mysqli_num_rows($result1);
 

@@ -8,7 +8,7 @@
     $email = $_SESSION['email'];
     
     include 'configuration.php' ;
-    $sql = "select * from users where email = '$email'";
+    $sql = "SELECT * from users where email = '$email'";
     $result = mysqli_query($conn, $sql);  
     $row = mysqli_fetch_array($result, MYSQLI_ASSOC);  
     $num = mysqli_num_rows($result);
