@@ -37,7 +37,7 @@
                     $_SESSION['loggedin'] = true;
                     $_SESSION['email'] = $email;
                     #$_SESSION['name'] = $row['name'];
-                    header("location: dashboard.php",);
+                    header("location: dashboard.php");
                 }
                 else{
                     echo "your Email account is not varified... please varify your account First";
